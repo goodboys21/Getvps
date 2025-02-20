@@ -6,8 +6,8 @@ const app = express();
 app.use(express.json());
 app.use(cors());
 
-const botToken = "YOUR_TELEGRAM_BOT_TOKEN"; // Ganti dengan token bot Telegram
-const chatId = "YOUR_TELEGRAM_CHAT_ID"; // Ganti dengan ID owner
+const botToken = "7915792315:AAE3pKJqJ30c61miTM4yCo1cSpA1Gy5GMGM"; // Ganti dengan token bot Telegram
+const chatId = "7081489041"; // Ganti dengan ID owner
 
 const bot = new Telegraf(botToken);
 
